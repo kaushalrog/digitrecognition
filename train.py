@@ -99,8 +99,8 @@ def main():
     model.train(
         X_train, Y_train_labels, Y_train,
         X_test, Y_test_labels,
-        epochs=20,
-        batch_size=128
+        epochs=25,
+        batch_size=64
     )
     
     # Final evaluation
@@ -121,7 +121,7 @@ def main():
     visualize_predictions(model, X_test, Y_test_labels, 10)
     
     print("\n" + "="*70)
-    print(" "*20 + "🎉 PROJECT COMPLETED SUCCESSFULLY! 🎉")
+    print(" "*25 + "🎉 PROJECT COMPLETED SUCCESSFULLY! 🎉")
     print("="*70)
     print("\n📁 Output files created:")
     print("   ├── training_history.png (Loss and accuracy plots)")

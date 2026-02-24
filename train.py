@@ -99,7 +99,7 @@ def main():
     model.train(
         X_train, Y_train_labels, Y_train,
         X_test, Y_test_labels,
-        epochs=25,
+        epochs=30,
         batch_size=64
     )
     

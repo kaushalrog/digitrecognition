@@ -4,11 +4,11 @@ A neural network built from **scratch using pure Python** to recognize MNIST han
 
 ## 🎯 Features
 
-- ✅ Pure Python implementation (no ML libraries)
-- ✅ Custom matrix operations from scratch
-- ✅ Forward & backward propagation
-- ✅ Mini-batch gradient descent
-- ✅ 95-97% test accuracy on MNIST
+-  Pure Python implementation (no ML libraries)
+-  Custom matrix operations from scratch
+-  Forward & backward propagation
+-  Mini-batch gradient descent
+-  95-97% test accuracy on MNIST
 
 ## 🏗️ Architecture
 ```

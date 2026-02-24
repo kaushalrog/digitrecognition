@@ -100,7 +100,7 @@ def main():
         X_train, Y_train_labels, Y_train,
         X_test, Y_test_labels,
         epochs=30,
-        batch_size=64
+        batch_size=128
     )
     
     # Final evaluation
